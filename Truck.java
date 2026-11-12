@@ -31,4 +31,8 @@ public class Truck extends Vehicle {
     public void moveRight() {
         System.out.println("A truck moves right");
     }
+    
+     public void service() {
+      System.out.println("Inspect cargo brakes.");
+   }
 }

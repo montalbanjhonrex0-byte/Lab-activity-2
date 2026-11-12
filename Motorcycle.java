@@ -31,4 +31,8 @@ public class Motorcycle extends Vehicle {
     public void moveRight() {
         System.out.println("A motorcycle moves right");
     }
+    
+     public void service() {
+      System.out.println("Inspect tires and brakes.");
+   }
 }
